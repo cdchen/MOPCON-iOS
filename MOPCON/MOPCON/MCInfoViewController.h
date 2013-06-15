@@ -1,5 +1,5 @@
 //
-//  MCSplashViewController.h
+//  MCInfoViewController.h
 //  MOPCON
 //
 //  Created by Cd Chen on 13/6/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MCSplashViewController : UIViewController
-{
-    UIActivityIndicatorView *_activityIndicatorView;
-}
+@interface MCInfoViewController : UIViewController
 
 @end

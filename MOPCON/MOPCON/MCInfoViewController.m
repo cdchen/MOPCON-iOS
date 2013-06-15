@@ -1,19 +1,18 @@
 //
-//  MCAgendaViewController.m
+//  MCInfoViewController.m
 //  MOPCON
 //
 //  Created by Cd Chen on 13/6/16.
 //  Copyright (c) 2013年 MOPCON. All rights reserved.
 //
 
-#import "MCAgendaViewController.h"
+#import "MCInfoViewController.h"
 
-@interface MCAgendaViewController ()
+@interface MCInfoViewController ()
 
 @end
 
-@implementation MCAgendaViewController
-
+@implementation MCInfoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -16,14 +16,47 @@
 		B3731234176CDA1B0028186C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731233176CDA1B0028186C /* Default.png */; };
 		B3731236176CDA1B0028186C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731235176CDA1B0028186C /* Default@2x.png */; };
 		B3731238176CDA1B0028186C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731237176CDA1B0028186C /* Default-568h@2x.png */; };
-		B373123B176CDA1B0028186C /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B373123A176CDA1B0028186C /* MCViewController.m */; };
-		B373123E176CDA1B0028186C /* MCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B373123C176CDA1B0028186C /* MCViewController_iPhone.xib */; };
-		B3731241176CDA1B0028186C /* MCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B373123F176CDA1B0028186C /* MCViewController_iPad.xib */; };
 		B3731249176CDA1B0028186C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3731248176CDA1B0028186C /* SenTestingKit.framework */; };
 		B373124A176CDA1B0028186C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3731221176CDA1B0028186C /* UIKit.framework */; };
 		B373124B176CDA1B0028186C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3731223176CDA1B0028186C /* Foundation.framework */; };
 		B3731253176CDA1B0028186C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3731251176CDA1B0028186C /* InfoPlist.strings */; };
 		B3731256176CDA1B0028186C /* MOPCONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731255176CDA1B0028186C /* MOPCONTests.m */; };
+		B3731262176CDC200028186C /* MCSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731260176CDC200028186C /* MCSplashViewController.m */; };
+		B3731263176CDC200028186C /* MCSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731260176CDC200028186C /* MCSplashViewController.m */; };
+		B3731264176CDC200028186C /* MCSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731261176CDC200028186C /* MCSplashViewController.xib */; };
+		B3731265176CDC200028186C /* MCSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731261176CDC200028186C /* MCSplashViewController.xib */; };
+		B373126D176CE0380028186C /* MCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B373126B176CE0380028186C /* MCMainViewController.m */; };
+		B373126E176CE0380028186C /* MCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B373126B176CE0380028186C /* MCMainViewController.m */; };
+		B373126F176CE0380028186C /* MCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B373126C176CE0380028186C /* MCMainViewController.xib */; };
+		B3731270176CE0380028186C /* MCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B373126C176CE0380028186C /* MCMainViewController.xib */; };
+		B3731274176CE16D0028186C /* MCAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731272176CE16D0028186C /* MCAgendaViewController.m */; };
+		B3731275176CE16D0028186C /* MCAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731272176CE16D0028186C /* MCAgendaViewController.m */; };
+		B3731276176CE16D0028186C /* MCAgendaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731273176CE16D0028186C /* MCAgendaViewController.xib */; };
+		B3731277176CE16D0028186C /* MCAgendaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731273176CE16D0028186C /* MCAgendaViewController.xib */; };
+		B373127B176CE3BC0028186C /* glyphicons_045_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731279176CE3BC0028186C /* glyphicons_045_calendar.png */; };
+		B373127C176CE3BC0028186C /* glyphicons_045_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731279176CE3BC0028186C /* glyphicons_045_calendar.png */; };
+		B373127D176CE3BC0028186C /* glyphicons_045_calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B373127A176CE3BC0028186C /* glyphicons_045_calendar@2x.png */; };
+		B373127E176CE3BC0028186C /* glyphicons_045_calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B373127A176CE3BC0028186C /* glyphicons_045_calendar@2x.png */; };
+		B3731281176CE3E40028186C /* glyphicons_242_google_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = B373127F176CE3E40028186C /* glyphicons_242_google_maps.png */; };
+		B3731282176CE3E40028186C /* glyphicons_242_google_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = B373127F176CE3E40028186C /* glyphicons_242_google_maps.png */; };
+		B3731283176CE3E40028186C /* glyphicons_242_google_maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731280176CE3E40028186C /* glyphicons_242_google_maps@2x.png */; };
+		B3731284176CE3E40028186C /* glyphicons_242_google_maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731280176CE3E40028186C /* glyphicons_242_google_maps@2x.png */; };
+		B3731288176CE4380028186C /* MCTrafficGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731286176CE4380028186C /* MCTrafficGuideViewController.m */; };
+		B3731289176CE4380028186C /* MCTrafficGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731286176CE4380028186C /* MCTrafficGuideViewController.m */; };
+		B373128A176CE4380028186C /* MCTrafficGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731287176CE4380028186C /* MCTrafficGuideViewController.xib */; };
+		B373128B176CE4380028186C /* MCTrafficGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731287176CE4380028186C /* MCTrafficGuideViewController.xib */; };
+		B373128E176CE4AB0028186C /* glyphicons_026_road.png in Resources */ = {isa = PBXBuildFile; fileRef = B373128C176CE4AB0028186C /* glyphicons_026_road.png */; };
+		B373128F176CE4AB0028186C /* glyphicons_026_road.png in Resources */ = {isa = PBXBuildFile; fileRef = B373128C176CE4AB0028186C /* glyphicons_026_road.png */; };
+		B3731290176CE4AB0028186C /* glyphicons_026_road@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B373128D176CE4AB0028186C /* glyphicons_026_road@2x.png */; };
+		B3731291176CE4AB0028186C /* glyphicons_026_road@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B373128D176CE4AB0028186C /* glyphicons_026_road@2x.png */; };
+		B3731295176CE4EC0028186C /* MCInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731293176CE4EC0028186C /* MCInfoViewController.m */; };
+		B3731296176CE4EC0028186C /* MCInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3731293176CE4EC0028186C /* MCInfoViewController.m */; };
+		B3731297176CE4EC0028186C /* MCInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731294176CE4EC0028186C /* MCInfoViewController.xib */; };
+		B3731298176CE4EC0028186C /* MCInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3731294176CE4EC0028186C /* MCInfoViewController.xib */; };
+		B373129B176CE5360028186C /* glyphicons_195_circle_info.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731299176CE5360028186C /* glyphicons_195_circle_info.png */; };
+		B373129C176CE5360028186C /* glyphicons_195_circle_info.png in Resources */ = {isa = PBXBuildFile; fileRef = B3731299176CE5360028186C /* glyphicons_195_circle_info.png */; };
+		B373129D176CE5360028186C /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B373129A176CE5360028186C /* glyphicons_195_circle_info@2x.png */; };
+		B373129E176CE5360028186C /* glyphicons_195_circle_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B373129A176CE5360028186C /* glyphicons_195_circle_info@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +83,35 @@
 		B3731233176CDA1B0028186C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B3731235176CDA1B0028186C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B3731237176CDA1B0028186C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B3731239176CDA1B0028186C /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
-		B373123A176CDA1B0028186C /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
-		B373123D176CDA1B0028186C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCViewController_iPhone.xib; sourceTree = "<group>"; };
-		B3731240176CDA1B0028186C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MCViewController_iPad.xib; sourceTree = "<group>"; };
 		B3731247176CDA1B0028186C /* MOPCONTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOPCONTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3731248176CDA1B0028186C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B3731250176CDA1B0028186C /* MOPCONTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOPCONTests-Info.plist"; sourceTree = "<group>"; };
 		B3731252176CDA1B0028186C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3731254176CDA1B0028186C /* MOPCONTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOPCONTests.h; sourceTree = "<group>"; };
 		B3731255176CDA1B0028186C /* MOPCONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOPCONTests.m; sourceTree = "<group>"; };
+		B373125F176CDC200028186C /* MCSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSplashViewController.h; sourceTree = "<group>"; };
+		B3731260176CDC200028186C /* MCSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSplashViewController.m; sourceTree = "<group>"; };
+		B3731261176CDC200028186C /* MCSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCSplashViewController.xib; sourceTree = "<group>"; };
+		B373126A176CE0380028186C /* MCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainViewController.h; sourceTree = "<group>"; };
+		B373126B176CE0380028186C /* MCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainViewController.m; sourceTree = "<group>"; };
+		B373126C176CE0380028186C /* MCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCMainViewController.xib; sourceTree = "<group>"; };
+		B3731271176CE16D0028186C /* MCAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAgendaViewController.h; sourceTree = "<group>"; };
+		B3731272176CE16D0028186C /* MCAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAgendaViewController.m; sourceTree = "<group>"; };
+		B3731273176CE16D0028186C /* MCAgendaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCAgendaViewController.xib; sourceTree = "<group>"; };
+		B3731279176CE3BC0028186C /* glyphicons_045_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_045_calendar.png; sourceTree = "<group>"; };
+		B373127A176CE3BC0028186C /* glyphicons_045_calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_045_calendar@2x.png"; sourceTree = "<group>"; };
+		B373127F176CE3E40028186C /* glyphicons_242_google_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_242_google_maps.png; sourceTree = "<group>"; };
+		B3731280176CE3E40028186C /* glyphicons_242_google_maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_242_google_maps@2x.png"; sourceTree = "<group>"; };
+		B3731285176CE4380028186C /* MCTrafficGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTrafficGuideViewController.h; sourceTree = "<group>"; };
+		B3731286176CE4380028186C /* MCTrafficGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTrafficGuideViewController.m; sourceTree = "<group>"; };
+		B3731287176CE4380028186C /* MCTrafficGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCTrafficGuideViewController.xib; sourceTree = "<group>"; };
+		B373128C176CE4AB0028186C /* glyphicons_026_road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_026_road.png; sourceTree = "<group>"; };
+		B373128D176CE4AB0028186C /* glyphicons_026_road@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_026_road@2x.png"; sourceTree = "<group>"; };
+		B3731292176CE4EC0028186C /* MCInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCInfoViewController.h; sourceTree = "<group>"; };
+		B3731293176CE4EC0028186C /* MCInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCInfoViewController.m; sourceTree = "<group>"; };
+		B3731294176CE4EC0028186C /* MCInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCInfoViewController.xib; sourceTree = "<group>"; };
+		B3731299176CE5360028186C /* glyphicons_195_circle_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_195_circle_info.png; sourceTree = "<group>"; };
+		B373129A176CE5360028186C /* glyphicons_195_circle_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_195_circle_info@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,13 +171,25 @@
 		B3731227176CDA1B0028186C /* MOPCON */ = {
 			isa = PBXGroup;
 			children = (
+				B3731278176CE3B30028186C /* Assets */,
 				B3731230176CDA1B0028186C /* MCAppDelegate.h */,
 				B3731231176CDA1B0028186C /* MCAppDelegate.m */,
-				B3731239176CDA1B0028186C /* MCViewController.h */,
-				B373123A176CDA1B0028186C /* MCViewController.m */,
-				B373123C176CDA1B0028186C /* MCViewController_iPhone.xib */,
-				B373123F176CDA1B0028186C /* MCViewController_iPad.xib */,
 				B3731228176CDA1B0028186C /* Supporting Files */,
+				B373125F176CDC200028186C /* MCSplashViewController.h */,
+				B3731260176CDC200028186C /* MCSplashViewController.m */,
+				B3731261176CDC200028186C /* MCSplashViewController.xib */,
+				B373126A176CE0380028186C /* MCMainViewController.h */,
+				B373126B176CE0380028186C /* MCMainViewController.m */,
+				B373126C176CE0380028186C /* MCMainViewController.xib */,
+				B3731271176CE16D0028186C /* MCAgendaViewController.h */,
+				B3731272176CE16D0028186C /* MCAgendaViewController.m */,
+				B3731273176CE16D0028186C /* MCAgendaViewController.xib */,
+				B3731285176CE4380028186C /* MCTrafficGuideViewController.h */,
+				B3731286176CE4380028186C /* MCTrafficGuideViewController.m */,
+				B3731287176CE4380028186C /* MCTrafficGuideViewController.xib */,
+				B3731292176CE4EC0028186C /* MCInfoViewController.h */,
+				B3731293176CE4EC0028186C /* MCInfoViewController.m */,
+				B3731294176CE4EC0028186C /* MCInfoViewController.xib */,
 			);
 			path = MOPCON;
 			sourceTree = "<group>";
@@ -161,6 +225,21 @@
 				B3731251176CDA1B0028186C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3731278176CE3B30028186C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B3731299176CE5360028186C /* glyphicons_195_circle_info.png */,
+				B373129A176CE5360028186C /* glyphicons_195_circle_info@2x.png */,
+				B373128C176CE4AB0028186C /* glyphicons_026_road.png */,
+				B373128D176CE4AB0028186C /* glyphicons_026_road@2x.png */,
+				B373127F176CE3E40028186C /* glyphicons_242_google_maps.png */,
+				B3731280176CE3E40028186C /* glyphicons_242_google_maps@2x.png */,
+				B3731279176CE3BC0028186C /* glyphicons_045_calendar.png */,
+				B373127A176CE3BC0028186C /* glyphicons_045_calendar@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +318,19 @@
 				B3731234176CDA1B0028186C /* Default.png in Resources */,
 				B3731236176CDA1B0028186C /* Default@2x.png in Resources */,
 				B3731238176CDA1B0028186C /* Default-568h@2x.png in Resources */,
-				B373123E176CDA1B0028186C /* MCViewController_iPhone.xib in Resources */,
-				B3731241176CDA1B0028186C /* MCViewController_iPad.xib in Resources */,
+				B3731264176CDC200028186C /* MCSplashViewController.xib in Resources */,
+				B373126F176CE0380028186C /* MCMainViewController.xib in Resources */,
+				B3731276176CE16D0028186C /* MCAgendaViewController.xib in Resources */,
+				B373127B176CE3BC0028186C /* glyphicons_045_calendar.png in Resources */,
+				B373127D176CE3BC0028186C /* glyphicons_045_calendar@2x.png in Resources */,
+				B3731281176CE3E40028186C /* glyphicons_242_google_maps.png in Resources */,
+				B3731283176CE3E40028186C /* glyphicons_242_google_maps@2x.png in Resources */,
+				B373128A176CE4380028186C /* MCTrafficGuideViewController.xib in Resources */,
+				B373128E176CE4AB0028186C /* glyphicons_026_road.png in Resources */,
+				B3731290176CE4AB0028186C /* glyphicons_026_road@2x.png in Resources */,
+				B3731297176CE4EC0028186C /* MCInfoViewController.xib in Resources */,
+				B373129B176CE5360028186C /* glyphicons_195_circle_info.png in Resources */,
+				B373129D176CE5360028186C /* glyphicons_195_circle_info@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +339,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3731253176CDA1B0028186C /* InfoPlist.strings in Resources */,
+				B3731265176CDC200028186C /* MCSplashViewController.xib in Resources */,
+				B3731270176CE0380028186C /* MCMainViewController.xib in Resources */,
+				B3731277176CE16D0028186C /* MCAgendaViewController.xib in Resources */,
+				B373127C176CE3BC0028186C /* glyphicons_045_calendar.png in Resources */,
+				B373127E176CE3BC0028186C /* glyphicons_045_calendar@2x.png in Resources */,
+				B3731282176CE3E40028186C /* glyphicons_242_google_maps.png in Resources */,
+				B3731284176CE3E40028186C /* glyphicons_242_google_maps@2x.png in Resources */,
+				B373128B176CE4380028186C /* MCTrafficGuideViewController.xib in Resources */,
+				B373128F176CE4AB0028186C /* glyphicons_026_road.png in Resources */,
+				B3731291176CE4AB0028186C /* glyphicons_026_road@2x.png in Resources */,
+				B3731298176CE4EC0028186C /* MCInfoViewController.xib in Resources */,
+				B373129C176CE5360028186C /* glyphicons_195_circle_info.png in Resources */,
+				B373129E176CE5360028186C /* glyphicons_195_circle_info@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +380,11 @@
 			files = (
 				B373122E176CDA1B0028186C /* main.m in Sources */,
 				B3731232176CDA1B0028186C /* MCAppDelegate.m in Sources */,
-				B373123B176CDA1B0028186C /* MCViewController.m in Sources */,
+				B3731262176CDC200028186C /* MCSplashViewController.m in Sources */,
+				B373126D176CE0380028186C /* MCMainViewController.m in Sources */,
+				B3731274176CE16D0028186C /* MCAgendaViewController.m in Sources */,
+				B3731288176CE4380028186C /* MCTrafficGuideViewController.m in Sources */,
+				B3731295176CE4EC0028186C /* MCInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +393,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3731256176CDA1B0028186C /* MOPCONTests.m in Sources */,
+				B3731263176CDC200028186C /* MCSplashViewController.m in Sources */,
+				B373126E176CE0380028186C /* MCMainViewController.m in Sources */,
+				B3731275176CE16D0028186C /* MCAgendaViewController.m in Sources */,
+				B3731289176CE4380028186C /* MCTrafficGuideViewController.m in Sources */,
+				B3731296176CE4EC0028186C /* MCInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +418,6 @@
 				B373122B176CDA1B0028186C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B373123C176CDA1B0028186C /* MCViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B373123D176CDA1B0028186C /* en */,
-			);
-			name = MCViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		B373123F176CDA1B0028186C /* MCViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3731240176CDA1B0028186C /* en */,
-			);
-			name = MCViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		B3731251176CDA1B0028186C /* InfoPlist.strings */ = {
@@ -470,6 +566,7 @@
 				B373125B176CDA1B0028186C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B373125C176CDA1B0028186C /* Build configuration list for PBXNativeTarget "MOPCONTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +575,7 @@
 				B373125E176CDA1B0028186C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

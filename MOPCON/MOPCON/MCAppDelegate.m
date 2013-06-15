@@ -8,7 +8,7 @@
 
 #import "MCAppDelegate.h"
 
-#import "MCViewController.h"
+#import "MCSplashViewController.h"
 
 @implementation MCAppDelegate
 
@@ -16,13 +16,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[MCViewController alloc] initWithNibName:@"MCViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[MCViewController alloc] initWithNibName:@"MCViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//        self.viewController = [[MCSplashViewController alloc] initWithNibName:@"MCSplashViewController" bundle:nil];
+//    } else {
+//        self.viewController = [[MCSplashViewController alloc] initWithNibName:@"MCSplashViewController" bundle:nil];
+//    }
+
+    self.rootViewController = [[MCSplashViewController alloc] initWithNibName:@"MCSplashViewController" bundle:nil];
+    
+    self.window.rootViewController = self.rootViewController;
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 

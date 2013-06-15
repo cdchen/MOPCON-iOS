@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class MCViewController;
+@class MCSplashViewController;
+
 
 @interface MCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) MCViewController *viewController;
+@property (strong, nonatomic) MCSplashViewController *rootViewController;
 
 @end

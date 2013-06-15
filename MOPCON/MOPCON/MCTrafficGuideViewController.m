@@ -1,19 +1,18 @@
 //
-//  MCAgendaViewController.m
+//  MCTrafficGuideViewController.m
 //  MOPCON
 //
 //  Created by Cd Chen on 13/6/16.
 //  Copyright (c) 2013年 MOPCON. All rights reserved.
 //
 
-#import "MCAgendaViewController.h"
+#import "MCTrafficGuideViewController.h"
 
-@interface MCAgendaViewController ()
+@interface MCTrafficGuideViewController ()
 
 @end
 
-@implementation MCAgendaViewController
-
+@implementation MCTrafficGuideViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
